@@ -71,6 +71,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.SQLinq.Dappe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.SQLinq.Dapper.Tests", "source\Infrastructure.SQLinq.Dapper.Tests\Infrastructure.SQLinq.Dapper.Tests.csproj", "{C330A849-0945-42CA-AB8F-2D04457AE0DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EA4D578E-6D5E-476B-91A0-A40919A646FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Tests", "source\Infrastructure.Tests\Infrastructure.Tests.csproj", "{CFAEAC98-C722-4BD1-A9F8-5FB5E924678A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +141,10 @@ Global
 		{C330A849-0945-42CA-AB8F-2D04457AE0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C330A849-0945-42CA-AB8F-2D04457AE0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C330A849-0945-42CA-AB8F-2D04457AE0DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFAEAC98-C722-4BD1-A9F8-5FB5E924678A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFAEAC98-C722-4BD1-A9F8-5FB5E924678A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFAEAC98-C722-4BD1-A9F8-5FB5E924678A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFAEAC98-C722-4BD1-A9F8-5FB5E924678A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -157,5 +165,6 @@ Global
 		{536558CC-22E8-49BA-9315-A650A11A6244} = {4A05DE99-D83F-44C7-B037-33BDEC668B7E}
 		{565F172A-2CA7-4B4E-9CAE-4858CD54A283} = {4A05DE99-D83F-44C7-B037-33BDEC668B7E}
 		{C330A849-0945-42CA-AB8F-2D04457AE0DA} = {4A05DE99-D83F-44C7-B037-33BDEC668B7E}
+		{CFAEAC98-C722-4BD1-A9F8-5FB5E924678A} = {EA4D578E-6D5E-476B-91A0-A40919A646FD}
 	EndGlobalSection
 EndGlobal
